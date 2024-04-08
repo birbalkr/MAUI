@@ -16,6 +16,12 @@ build_property.ProjectDir = C:\Users\Upendra\source\repos\MAUI_App\MAUI_App\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
+[C:/Users/Upendra/source/repos/MAUI_App/MAUI_App/AbsoluteLayoutDemo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI_App.AbsoluteLayoutDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = AbsoluteLayoutDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = AbsoluteLayoutDemo.xaml
+
 [C:/Users/Upendra/source/repos/MAUI_App/MAUI_App/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MAUI_App.App.xaml
