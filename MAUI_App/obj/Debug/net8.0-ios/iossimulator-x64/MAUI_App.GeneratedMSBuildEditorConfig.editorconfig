@@ -40,6 +40,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MAUI_App.DemoPage.xaml
 build_metadata.AdditionalFiles.TargetPath = DemoPage.xaml
 build_metadata.AdditionalFiles.RelativePath = DemoPage.xaml
 
+[C:/Users/Upendra/source/repos/MAUI_App/MAUI_App/FlexLayoutDemo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI_App.FlexLayoutDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = FlexLayoutDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = FlexLayoutDemo.xaml
+
 [C:/Users/Upendra/source/repos/MAUI_App/MAUI_App/FlyoutPageDemo.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MAUI_App.FlyoutPageDemo.xaml
