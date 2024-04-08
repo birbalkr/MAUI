@@ -58,6 +58,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MAUI_App.Resources.Styles.
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/Users/Upendra/source/repos/MAUI_App/MAUI_App/StackPageDemo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI_App.StackPageDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = StackPageDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = StackPageDemo.xaml
+
 [C:/Users/Upendra/source/repos/MAUI_App/MAUI_App/TabbedPageDemo.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MAUI_App.TabbedPageDemo.xaml
