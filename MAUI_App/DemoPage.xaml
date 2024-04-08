@@ -9,5 +9,7 @@
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
         <Label Text="Hello"/>
+        <Entry TextColor="White"/>
+        <Button Text="click" Clicked="Button_Clicked"/>
     </VerticalStackLayout>
 </ContentPage>
