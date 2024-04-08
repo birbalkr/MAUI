@@ -8,7 +8,7 @@
             var navbar= new NavigationPage(new MainPage());
             navbar.BarBackground= Colors.Red;
 
-            MainPage = new FlyoutPageDemo();
+            MainPage = new TabbedPageDemo();
         }
     }
 }
