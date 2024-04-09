@@ -29,13 +29,13 @@
             </Grid>
         </SwipeView>
         <SwipeView>
-            <SwipeView.ri>
+            <SwipeView.RightItems>
                 <SwipeItems>
                     <SwipeItem BackgroundColor="Green" IconImageSource="dotnet_bot.svg" Invoked="SwipeItem_Invoked" Text="Archieve"/>
                     <SwipeItem BackgroundColor="red" IconImageSource="dotnet_bot.svg" Invoked="SwipeItem_Invoked" Text="Delete"/>
                 </SwipeItems>
 
-            </SwipeView.ri>
+            </SwipeView.RightItems>
             <Grid BackgroundColor="Gray" HeightRequest="100">
                 <Label VerticalOptions="Center" HorizontalOptions="Center" Text="Swip Right Side"/>
             </Grid>
