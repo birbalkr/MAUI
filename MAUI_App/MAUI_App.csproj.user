@@ -22,6 +22,9 @@
     <MauiXaml Update="GridPageDemo.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="PresentationControl.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="StackPageDemo.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
