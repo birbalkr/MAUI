@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUI_App.ControlCommand"
+             Title="ControlCommand">
+    <StackLayout>
+        <Button x:Name="Butt" Text="click" Clicked="Butt_Clicked" />
+        <ImageButton Source="dotnet_bot.svg" Clicked="ImgButt_Clicked"/>
+        <RadioButton Content="Option1" CheckedChanged="RadioButton_CheckedChanged"
+                     GroupName="gp1"/>
+        <RadioButton Content="Option2" CheckedChanged="RadioButton_CheckedChanged"
+             GroupName="gp1"/>
+        <RadioButton Content="Option3" CheckedChanged="RadioButton_CheckedChanged"
+             GroupName="gp"/>
+        <RadioButton Content="Option4" CheckedChanged="RadioButton_CheckedChanged"
+             GroupName="gp"/>
+        <SearchBar x:Name="Search" SearchButtonPressed="Search_SearchButtonPressed"/>
+
+        <SwipeView>
+            <SwipeView.LeftItems>
+                <SwipeItems>
+                    <SwipeItem BackgroundColor="Green" IconImageSource="dotnet_bot.svg" Invoked="SwipeItem_Invoked" Text="Archieve"/>
+                    <SwipeItem BackgroundColor="red" IconImageSource="dotnet_bot.svg" Invoked="SwipeItem_Invoked" Text="Delete"/>
+                </SwipeItems>
+                
+            </SwipeView.LeftItems>
+            <Grid BackgroundColor="Gray" HeightRequest="100">
+                <Label VerticalOptions="Center" HorizontalOptions="Center" Text="Swip Right Side"/>
+            </Grid>
+        </SwipeView>
+        <SwipeView>
+            <SwipeView.ri>
+                <SwipeItems>
+                    <SwipeItem BackgroundColor="Green" IconImageSource="dotnet_bot.svg" Invoked="SwipeItem_Invoked" Text="Archieve"/>
+                    <SwipeItem BackgroundColor="red" IconImageSource="dotnet_bot.svg" Invoked="SwipeItem_Invoked" Text="Delete"/>
+                </SwipeItems>
+
+            </SwipeView.ri>
+            <Grid BackgroundColor="Gray" HeightRequest="100">
+                <Label VerticalOptions="Center" HorizontalOptions="Center" Text="Swip Right Side"/>
+            </Grid>
+        </SwipeView>
+    </StackLayout>
+</ContentPage>
