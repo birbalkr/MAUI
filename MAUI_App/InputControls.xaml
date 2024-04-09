@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUI_App.InputControls"
+             Title="InputControls">
+    <StackLayout>
+        <CheckBox IsChecked="True"/>
+        <Slider x:Name="Slider" Minimum="0" Maximum="10" MinimumTrackColor="Red" MaximumTrackColor="Green" ThumbColor="Blue" ValueChanged="Slider_ValueChanged"/>
+        <Label x:Name="resultSlider" HorizontalOptions="Center"/>
+        <Stepper x:Name="stepper1" ValueChanged="stepper1_ValueChanged" Minimum="1" Maximum="10" Increment="1"/>
+        <Switch IsToggled="True"/>
+        <TimePicker/>
+        <DatePicker/>
+        <Entry x:Name="UserTxt" Placeholder="Enter UserName" PlaceholderColor="red" Keyboard="Numeric" TextChanged="UserTxt_TextChanged" Completed="UserTxt_Completed"/>
+        <Editor AutoSize="TextChanges"/>
+    </StackLayout>
+</ContentPage>
