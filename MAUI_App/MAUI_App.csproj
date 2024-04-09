@@ -69,6 +69,9 @@
 	  <MauiXaml Update="ActivityControls.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="CollectionControls.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="ControlCommand.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

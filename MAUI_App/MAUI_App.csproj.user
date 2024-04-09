@@ -13,6 +13,9 @@
     <MauiXaml Update="ActivityControls.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="CollectionControls.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="ControlCommand.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

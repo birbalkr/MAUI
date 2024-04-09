@@ -40,6 +40,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MAUI_App.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
+[C:/Users/Upendra/source/repos/MAUI_App/MAUI_App/CollectionControls.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI_App.CollectionControls.xaml
+build_metadata.AdditionalFiles.TargetPath = CollectionControls.xaml
+build_metadata.AdditionalFiles.RelativePath = CollectionControls.xaml
+
 [C:/Users/Upendra/source/repos/MAUI_App/MAUI_App/ControlCommand.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MAUI_App.ControlCommand.xaml
