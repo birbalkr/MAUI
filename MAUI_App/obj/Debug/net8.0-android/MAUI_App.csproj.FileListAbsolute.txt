@@ -1037,3 +1037,6 @@ C:\Users\Upendra\source\repos\MAUI_App\MAUI_App\obj\Debug\net8.0-android\stamp\_
 C:\Users\Upendra\source\repos\MAUI_App\MAUI_App\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\Upendra\source\repos\MAUI_App\MAUI_App\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Upendra\source\repos\MAUI_App\MAUI_App\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Upendra\source\repos\MAUI_App\MAUI_App\obj\Debug\net8.0-android\resizetizer\r\drawable\download.jpeg
+C:\Users\Upendra\source\repos\MAUI_App\MAUI_App\obj\Debug\net8.0-android\resizetizer\r\drawable\images.png
+C:\Users\Upendra\source\repos\MAUI_App\MAUI_App\obj\Debug\net8.0-android\resizetizer\r\drawable\sunset.gif
