@@ -18,6 +18,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MAUI_App.AbsoluteLayoutDem
 build_metadata.AdditionalFiles.TargetPath = AbsoluteLayoutDemo.xaml
 build_metadata.AdditionalFiles.RelativePath = AbsoluteLayoutDemo.xaml
 
+[C:/Users/Upendra/source/repos/MAUI_App/MAUI_App/ActivityControls.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI_App.ActivityControls.xaml
+build_metadata.AdditionalFiles.TargetPath = ActivityControls.xaml
+build_metadata.AdditionalFiles.RelativePath = ActivityControls.xaml
+
 [C:/Users/Upendra/source/repos/MAUI_App/MAUI_App/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MAUI_App.App.xaml
