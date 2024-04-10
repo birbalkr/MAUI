@@ -5,7 +5,7 @@
              xmlns:EmpModel="clr-namespace:MAUI_App.Models"
              Title="DataBinding">
     <ContentPage.Resources>
-        <EmpModel:Employee x:Key="employee" Name="Birbal" Id="2" Age="20"/>
+        <EmpModel:Employee x:Key="employee" Name="Birbal " Id="2" Age="20"/>
     </ContentPage.Resources>
     <VerticalStackLayout>
         <Label x:Name="EmployeeLbl"
