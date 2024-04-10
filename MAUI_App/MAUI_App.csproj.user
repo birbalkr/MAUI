@@ -19,6 +19,9 @@
     <MauiXaml Update="ControlCommand.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="DataBinding.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="DemoPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

@@ -84,7 +84,7 @@
             </CollectionView.ItemTemplate>
         </CollectionView>-->
 
-        <Picker>
+        <!--<Picker>
             <Picker.ItemsSource>
                 <x:Array Type="{x:Type x:String}">
                     <x:String>Android</x:String>
@@ -105,8 +105,7 @@
                     <ImageCell Text="Dotnet" ImageSource="dotnet_bot.svg" Detail="img details"/>
                 </TableSection>
             </TableRoot>
-        </TableView>
-
+        </TableView>-->
 
     </StackLayout>
 </ContentPage>
