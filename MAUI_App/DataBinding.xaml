@@ -13,15 +13,9 @@
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
-        <Label Text="{Binding Id}"
-       VerticalOptions="Center" HorizontalOptions="Center"/>
-
-        <Label Text="{Binding Name}"
-       VerticalOptions="Center" HorizontalOptions="Center"/>
-
-        <Label Text="{Binding Age}"
-       VerticalOptions="Center" HorizontalOptions="Center"/>
-
-        <Button Text="change name" Clicked="Button_Clicked" VerticalOptions="Center"/>
+        <Label Rotation="{Binding Source={x:Reference Slider1},Path=Value}"
+               HorizontalOptions="Center" VerticalOptions="Center" 
+               Text="hello"/>
+        <Slider Minimum="0" Maximum="360" x:Name="Slider1"/>
     </VerticalStackLayout>
 </ContentPage>
