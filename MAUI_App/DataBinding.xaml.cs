@@ -19,11 +19,10 @@ public partial class DataBinding : ContentPage
             
         };
 
-        Binding empBinding = new Binding();
-        empBinding.Source = emp;
-        empBinding.Path = "Name";
+        BindingContext = emp;
 
-        EmployeeLbl.SetBinding(Label.TextProperty, empBinding);
+        EmployeeLbl.BindingContext = emp;
+        EmployeeLbl.SetBinding(Label.TextProperty, "Name");
 
 
     }

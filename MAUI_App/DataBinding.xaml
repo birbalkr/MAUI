@@ -12,8 +12,16 @@
             Text="Welcome to .NET MAUI!"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
-        <Label Text="{Binding Name, Source={StaticResource employee}}"
-               VerticalOptions="Center" HorizontalOptions="Center"/>
+
+        <Label Text="{Binding Id}"
+       VerticalOptions="Center" HorizontalOptions="Center"/>
+
+        <Label Text="{Binding Name}"
+       VerticalOptions="Center" HorizontalOptions="Center"/>
+
+        <Label Text="{Binding Age}"
+       VerticalOptions="Center" HorizontalOptions="Center"/>
+
         <Button Text="change name" Clicked="Button_Clicked" VerticalOptions="Center"/>
     </VerticalStackLayout>
 </ContentPage>
