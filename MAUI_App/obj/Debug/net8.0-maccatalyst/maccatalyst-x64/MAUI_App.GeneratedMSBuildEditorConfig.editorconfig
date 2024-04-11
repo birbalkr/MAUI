@@ -82,6 +82,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MAUI_App.GridPageDemo.xaml
 build_metadata.AdditionalFiles.TargetPath = GridPageDemo.xaml
 build_metadata.AdditionalFiles.RelativePath = GridPageDemo.xaml
 
+[C:/Users/Upendra/source/repos/MAUI_App/MAUI_App/INotifyPropertyChanged.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI_App.INotifyPropertyChanged.xaml
+build_metadata.AdditionalFiles.TargetPath = INotifyPropertyChanged.xaml
+build_metadata.AdditionalFiles.RelativePath = INotifyPropertyChanged.xaml
+
 [C:/Users/Upendra/source/repos/MAUI_App/MAUI_App/InputControls.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MAUI_App.InputControls.xaml
@@ -93,6 +99,12 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MAUI_App.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Upendra/source/repos/MAUI_App/MAUI_App/ModleExample.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI_App.ModleExample.xaml
+build_metadata.AdditionalFiles.TargetPath = ModleExample.xaml
+build_metadata.AdditionalFiles.RelativePath = ModleExample.xaml
 
 [C:/Users/Upendra/source/repos/MAUI_App/MAUI_App/PresentationControl.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

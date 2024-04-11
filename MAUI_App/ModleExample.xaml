@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUI_App.ModleExample"
+             Title="ModleExample">
+    <VerticalStackLayout>
+
+        <Entry x:Name="FirstName"
+               HorizontalOptions="Center"
+               Text="Tech"
+VerticalOptions="Center"/>
+
+        <Entry Text="{Binding Source={x:Reference FirstName},Path=Text, Mode=OneWay}"
+               x:Name="LastName" HorizontalOptions="Center" VerticalOptions="Center"/>
+    </VerticalStackLayout>
+</ContentPage>

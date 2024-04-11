@@ -34,7 +34,13 @@
     <MauiXaml Update="GridPageDemo.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="INotifyPropertyChanged.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="InputControls.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="ModleExample.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="PresentationControl.xaml">
