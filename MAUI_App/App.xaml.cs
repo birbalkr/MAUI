@@ -1,4 +1,6 @@
-﻿namespace MAUI_App
+﻿using MAUI_App.MVVM.Views;
+
+namespace MAUI_App
 {
     public partial class App : Application
     {
@@ -8,7 +10,7 @@
             var navbar= new NavigationPage(new MainPage());
             navbar.BarBackground= Colors.Red;
 
-            MainPage = new INotifyPropertyChanged();
+            MainPage = new ProductPage();
         }
     }
 }

@@ -102,6 +102,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MAUI_App.ModleExample.xaml
 build_metadata.AdditionalFiles.TargetPath = ModleExample.xaml
 build_metadata.AdditionalFiles.RelativePath = ModleExample.xaml
 
+[C:/Users/Upendra/source/repos/MAUI_App/MAUI_App/MVVM/Views/ProductPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI_App.MVVM.Views.ProductPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MVVM\Views\ProductPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MVVM\Views\ProductPage.xaml
+
 [C:/Users/Upendra/source/repos/MAUI_App/MAUI_App/PresentationControl.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MAUI_App.PresentationControl.xaml
