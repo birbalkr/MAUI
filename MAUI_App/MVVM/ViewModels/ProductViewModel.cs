@@ -16,7 +16,11 @@ namespace MAUI_App.MVVM.ViewModels
             Product = new Product()
             {
                 Title = "HP",
-                Description = "laptop"
+                Description = "laptop",
+                AvailQty = 5,
+                ProductWeight = 100,
+                IsPopular = true,
+                CreatedDate = new DateTime(2024, 03, 26)
             };
         }
 

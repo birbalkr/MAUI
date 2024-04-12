@@ -12,5 +12,10 @@
     Text="{Binding Product.Description}"
     VerticalOptions="Center" 
     HorizontalOptions="Center" FontSize="Header" />
+        <Switch IsToggled="{Binding Product.IsPopular}"/>
+        <Entry Text="{Binding Product.ProductWeight}"/>
+        <Slider Value="{Binding Product.AvailQty}" Minimum="0" Maximum="50"/>
+        <DatePicker Date="{Binding product.CreatedDate}"/>
+
     </StackLayout>
 </ContentPage>
