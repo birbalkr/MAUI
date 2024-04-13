@@ -108,6 +108,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MAUI_App.MVVM.Views.BindCo
 build_metadata.AdditionalFiles.TargetPath = MVVM\Views\BindCollectionView.xaml
 build_metadata.AdditionalFiles.RelativePath = MVVM\Views\BindCollectionView.xaml
 
+[C:/Users/Upendra/source/repos/MAUI_App/MAUI_App/MVVM/Views/CommandExample.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI_App.MVVM.Views.CommandExample.xaml
+build_metadata.AdditionalFiles.TargetPath = MVVM\Views\CommandExample.xaml
+build_metadata.AdditionalFiles.RelativePath = MVVM\Views\CommandExample.xaml
+
 [C:/Users/Upendra/source/repos/MAUI_App/MAUI_App/MVVM/Views/ConverterExample.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MAUI_App.MVVM.Views.ConverterExample.xaml

@@ -23,7 +23,10 @@ namespace MAUI_App.MVVM.ViewModels
 
         public object? ConvertBack(object? value, Type targetType, object? parameter, CultureInfo culture)
         {
-            return null;
+            var boolean = (bool)value;
+            if (boolean) { return "Married"; }
+            return "Not Married";
         }
+        
     }
 }
