@@ -1,4 +1,4 @@
-using MAUI_App.MVVM.Models;
+using MAUI_App.MVVM.ViewModels;
 
 namespace MAUI_App.MVVM.Views;
 
