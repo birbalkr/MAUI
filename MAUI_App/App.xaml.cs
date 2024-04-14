@@ -10,7 +10,7 @@ namespace MAUI_App
             var navbar= new NavigationPage(new MainPage());
             navbar.BarBackground= Colors.Red;
 
-            MainPage = new CommandExample();
+            MainPage =new NavigationPage(new FirstPage());
         }
     }
 }

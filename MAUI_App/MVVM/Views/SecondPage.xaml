@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUI_App.MVVM.Views.SecondPage"
+             Title="SecondPage">
+    <StackLayout>
+        <Label x:Name="UserText" FontSize="20"/>
+        <Button Text="Third Page" HorizontalOptions="Center" VerticalOptions="Center"
+                Clicked="Button_Clicked_1"/>
+        <Button Text=" First Page" HorizontalOptions="Center" VerticalOptions="Center"
+                Clicked="Button_Clicked_2"/>
+    </StackLayout>
+</ContentPage>

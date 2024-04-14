@@ -125,11 +125,29 @@ build_metadata.AdditionalFiles.ManifestResourceName = MAUI_App.MVVM.Views.Conver
 build_metadata.AdditionalFiles.TargetPath = MVVM\Views\ConverterExample.xaml
 build_metadata.AdditionalFiles.RelativePath = MVVM\Views\ConverterExample.xaml
 
+[C:/Users/Upendra/source/repos/MAUI_App/MAUI_App/MVVM/Views/FirstPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI_App.MVVM.Views.FirstPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MVVM\Views\FirstPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MVVM\Views\FirstPage.xaml
+
 [C:/Users/Upendra/source/repos/MAUI_App/MAUI_App/MVVM/Views/ProductPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MAUI_App.MVVM.Views.ProductPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MVVM\Views\ProductPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MVVM\Views\ProductPage.xaml
+
+[C:/Users/Upendra/source/repos/MAUI_App/MAUI_App/MVVM/Views/SecondPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI_App.MVVM.Views.SecondPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MVVM\Views\SecondPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MVVM\Views\SecondPage.xaml
+
+[C:/Users/Upendra/source/repos/MAUI_App/MAUI_App/MVVM/Views/ThirdPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI_App.MVVM.Views.ThirdPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MVVM\Views\ThirdPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MVVM\Views\ThirdPage.xaml
 
 [C:/Users/Upendra/source/repos/MAUI_App/MAUI_App/PresentationControl.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
