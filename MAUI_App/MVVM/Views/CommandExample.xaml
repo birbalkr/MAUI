@@ -3,16 +3,48 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MAUI_App.MVVM.Views.CommandExample"
              Title="CommandExample">
-    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
-        <Button Text="Click to Command" Command="{Binding CommandClick}"/>
-
-        <SearchBar Text="{Binding searchCommand}" SearchCommand="{Binding CommandSearch}"/>
-        <SearchBar x:Name="search1" SearchCommand="{Binding CommandSearch1}" SearchCommandParameter="{Binding Source={x:Reference search1},Path=Text}"/>
+    <StackLayout>
+        <Label Text="Calculator" HorizontalOptions="Center" Margin="0,60,0,20"  FontSize="Title" FontAttributes="Bold"/>
         
-        <Entry Text="{Binding first}" Placeholder="First Number"/>
-        <Entry Placeholder="Second Number" Text="{Binding second}" />
-        <Entry Text="{Binding result}" Placeholder="Result"/>
-        <Button Text="Calculate" Command="{Binding ResultCommand}"/>
+        <Label Text="Enter First Number" Margin="20,0,0,0" FontSize="22" FontAttributes="Bold"/>
+        <Border Stroke="Red" Margin="20,0,30,12">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="40,40,40,40" />
+            </Border.StrokeShape>
+            <Entry Text="{Binding first}" Placeholder="First Number" Margin="8,0,0,-9" />
+        </Border>
+
+        <Label Text="Enter Second Number" Margin="20,0,0,0" FontSize="22" FontAttributes="Bold" />
+        <Border Stroke="Red" Margin="20,0,30,12" >
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="40,40,40,40" />
+            </Border.StrokeShape>
+            <Entry Placeholder="Second Number" Text="{Binding second}" Margin="8,0,0,-9" />
+        </Border>
+
+        <Label Text="Enter - + * / " Margin="20,0,0,0" FontSize="22" FontAttributes="Bold"/>
+        <Border Stroke="Red" Margin="20,0,30,12" >
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="40,40,40,40" />
+            </Border.StrokeShape>
+            <Entry Text="{Binding input}" Margin="9,0,0,-9" />
+        </Border>
+
+        <Border Stroke="Green" Margin="150,13,150,1" Padding="10" StrokeThickness="4" >
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="40,0,0,40" />
+            </Border.StrokeShape>
+            <Label Text="{Binding result}" HorizontalOptions="Center"
+                    VerticalOptions="Center" />
+        </Border>
+
+        <Border Margin="20,20,20,20">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="40,40,40,40" />
+            </Border.StrokeShape>
+            <Button Text="Calculate" Command="{Binding ResultCommand}" />
+        </Border>
+
 
     </StackLayout>
 </ContentPage>
