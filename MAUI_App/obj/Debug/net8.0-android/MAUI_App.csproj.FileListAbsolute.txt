@@ -1040,3 +1040,6 @@ C:\Users\Upendra\source\repos\MAUI_App\MAUI_App\obj\Debug\net8.0-android\stamp\_
 C:\Users\Upendra\source\repos\MAUI_App\MAUI_App\obj\Debug\net8.0-android\resizetizer\r\drawable\download.jpeg
 C:\Users\Upendra\source\repos\MAUI_App\MAUI_App\obj\Debug\net8.0-android\resizetizer\r\drawable\images.png
 C:\Users\Upendra\source\repos\MAUI_App\MAUI_App\obj\Debug\net8.0-android\resizetizer\r\drawable\sunset.gif
+C:\Users\Upendra\source\repos\MAUI_App\MAUI_App\obj\Debug\net8.0-android\MAUI_App.csproj.Fody.CopyLocal.cache
+C:\Users\Upendra\source\repos\MAUI_App\MAUI_App\obj\Debug\net8.0-android\MAUI_App.csproj.Fody.RuntimeCopyLocal.cache
+C:\Users\Upendra\source\repos\MAUI_App\MAUI_App\obj\Debug\net8.0-android\android\assets\PropertyChanged.dll

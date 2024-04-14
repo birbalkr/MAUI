@@ -5,5 +5,14 @@
              Title="CommandExample">
     <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
         <Button Text="Click to Command" Command="{Binding CommandClick}"/>
+
+        <SearchBar Text="{Binding searchCommand}" SearchCommand="{Binding CommandSearch}"/>
+        <SearchBar x:Name="search1" SearchCommand="{Binding CommandSearch1}" SearchCommandParameter="{Binding Source={x:Reference search1},Path=Text}"/>
+        
+        <Entry Text="{Binding first}" Placeholder="First Number"/>
+        <Entry Placeholder="Second Number" Text="{Binding second}" />
+        <Entry Text="{Binding result}" Placeholder="Result"/>
+        <Button Text="Calculate" Command="{Binding ResultCommand}"/>
+
     </StackLayout>
 </ContentPage>
