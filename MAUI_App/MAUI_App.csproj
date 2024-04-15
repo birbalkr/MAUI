@@ -57,6 +57,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\a1.jpeg" />
+	  <None Remove="Resources\Images\a2.jpeg" />
+	  <None Remove="Resources\Images\a3.jpeg" />
+	  <None Remove="Resources\Images\a4.jpeg" />
+	  <None Remove="Resources\Images\a5.jpeg" />
+	  <None Remove="Resources\Images\a6.jpeg" />
 	  <None Remove="Resources\Images\download.jpeg" />
 	  <None Remove="Resources\Images\images.png" />
 	  <None Remove="Resources\Images\sunset.gif" />
@@ -107,6 +113,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="MVVM\Views\BindCollectionView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="MVVM\Views\ClothPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="MVVM\Views\CommandExample.xaml">

@@ -1043,3 +1043,13 @@ C:\Users\Upendra\source\repos\MAUI_App\MAUI_App\obj\Debug\net8.0-android\resizet
 C:\Users\Upendra\source\repos\MAUI_App\MAUI_App\obj\Debug\net8.0-android\MAUI_App.csproj.Fody.CopyLocal.cache
 C:\Users\Upendra\source\repos\MAUI_App\MAUI_App\obj\Debug\net8.0-android\MAUI_App.csproj.Fody.RuntimeCopyLocal.cache
 C:\Users\Upendra\source\repos\MAUI_App\MAUI_App\obj\Debug\net8.0-android\android\assets\PropertyChanged.dll
+C:\Users\Upendra\source\repos\MAUI_App\MAUI_App\obj\Debug\net8.0-android\resizetizer\r\drawable\a1.jpeg
+C:\Users\Upendra\source\repos\MAUI_App\MAUI_App\obj\Debug\net8.0-android\resizetizer\r\drawable\a2.jpeg
+C:\Users\Upendra\source\repos\MAUI_App\MAUI_App\obj\Debug\net8.0-android\resizetizer\r\drawable\a3.jpeg
+C:\Users\Upendra\source\repos\MAUI_App\MAUI_App\obj\Debug\net8.0-android\resizetizer\r\drawable\a4.jpeg
+C:\Users\Upendra\source\repos\MAUI_App\MAUI_App\obj\Debug\net8.0-android\resizetizer\r\drawable\a5.jpeg
+C:\Users\Upendra\source\repos\MAUI_App\MAUI_App\obj\Debug\net8.0-android\resizetizer\r\drawable\a6.jpeg
+C:\Users\Upendra\source\repos\MAUI_App\MAUI_App\obj\Debug\net8.0-android\resizetizer\r\drawable\a10.jpeg
+C:\Users\Upendra\source\repos\MAUI_App\MAUI_App\obj\Debug\net8.0-android\resizetizer\r\drawable\a7.jpeg
+C:\Users\Upendra\source\repos\MAUI_App\MAUI_App\obj\Debug\net8.0-android\resizetizer\r\drawable\a8.png
+C:\Users\Upendra\source\repos\MAUI_App\MAUI_App\obj\Debug\net8.0-android\resizetizer\r\drawable\a9.jpeg
