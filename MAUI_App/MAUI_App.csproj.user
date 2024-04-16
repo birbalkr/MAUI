@@ -73,6 +73,9 @@
     <MauiXaml Update="ResourcesExample.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Resources\Styles\ClothResourceDictionary.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="StackPageDemo.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

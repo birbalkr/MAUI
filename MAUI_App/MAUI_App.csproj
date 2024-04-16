@@ -142,6 +142,9 @@
 	  <MauiXaml Update="ResourcesExample.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Resources\Styles\ClothResourceDictionary.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="StackPageDemo.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

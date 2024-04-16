@@ -167,6 +167,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MAUI_App.ResourcesExample.
 build_metadata.AdditionalFiles.TargetPath = ResourcesExample.xaml
 build_metadata.AdditionalFiles.RelativePath = ResourcesExample.xaml
 
+[C:/Users/Upendra/source/repos/MAUI_App/MAUI_App/Resources/Styles/ClothResourceDictionary.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI_App.Resources.Styles.ClothResourceDictionary.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\ClothResourceDictionary.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\ClothResourceDictionary.xaml
+
 [C:/Users/Upendra/source/repos/MAUI_App/MAUI_App/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MAUI_App.Resources.Styles.Colors.xaml
