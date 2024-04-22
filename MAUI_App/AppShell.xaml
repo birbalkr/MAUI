@@ -3,13 +3,27 @@
     x:Class="MAUI_App.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:MAUI_App"
+    xmlns:local="clr-namespace:MAUI_App.MVVM.Views"
     Shell.FlyoutBehavior="Disabled"
     Title="MAUI_App">
 
-    <ShellContent
+    <TabBar x:Name="MyTabs">
+        <Tab Title="My list" Icon="a1.png">
+            <ShellContent ContentTemplate="{DataTemplate local:ThirdPage}" Route="ThirdPage"/>
+        </Tab>
+        
+        <Tab Title="Cloth" Icon="a2.png">
+            <ShellContent ContentTemplate="{DataTemplate local:ClothPage}" Route="ClothPage"/>
+        </Tab>
+        
+        <Tab Title="Product" Icon="a3.png">
+            <ShellContent ContentTemplate="{DataTemplate local:ProductPage}" Route="ProductPage"/>
+        </Tab>
+        
+    </TabBar>
+    <!--<ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        Route="MainPage" />-->
 
 </Shell>
