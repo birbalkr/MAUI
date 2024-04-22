@@ -1,4 +1,5 @@
 ﻿using MAUI_App.MVVM.Views;
+using Plugin.Fingerprint;
 
 namespace MAUI_App
 {
@@ -10,7 +11,7 @@ namespace MAUI_App
             var navbar= new NavigationPage(new MainPage());
             navbar.BarBackground= Colors.Red;
 
-            MainPage =new ClothPage();
+            MainPage =new FirstPage(CrossFingerprint.Current);
         }
     }
 }

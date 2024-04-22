@@ -1,10 +1,15 @@
+using Plugin.Fingerprint.Abstractions;
+
 namespace MAUI_App.MVVM.Views;
 
 public partial class FirstPage : ContentPage
 {
-	public FirstPage()
+    private readonly IFingerprint fingerprint;
+
+	public FirstPage(IFingerprint fingerprint)
 	{
 		InitializeComponent();
+        this.fingerprint = fingerprint;
 	}
 
    
@@ -18,5 +23,19 @@ public partial class FirstPage : ContentPage
     {
         Navigation.PushModalAsync(new ThirdPage());
 
+    }
+
+    private async void Button_Clicked_2(object sender, EventArgs e)
+    {
+        var request = new AuthenticationRequestConfiguration("Finger's validate","For Access");
+        var result = await fingerprint.AuthenticateAsync(request);
+        if (result.Authenticated)
+        {
+            await DisplayAlert("Authenticated", "Access Granted", "ok");
+        }
+        else
+        {
+            await DisplayAlert("Authenticated", "Access Denied", "ok");
+        }
     }
 }

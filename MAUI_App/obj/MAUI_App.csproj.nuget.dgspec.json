@@ -84,6 +84,10 @@
               "version": "[8.0.3, )",
               "autoReferenced": true
             },
+            "Plugin.Fingerprint": {
+              "target": "Package",
+              "version": "[3.0.0-beta.1, )"
+            },
             "PropertyChanged.Fody": {
               "target": "Package",
               "version": "[4.1.0, )"
@@ -130,6 +134,10 @@
               "target": "Package",
               "version": "[8.0.3, )",
               "autoReferenced": true
+            },
+            "Plugin.Fingerprint": {
+              "target": "Package",
+              "version": "[3.0.0-beta.1, )"
             },
             "PropertyChanged.Fody": {
               "target": "Package",
@@ -178,6 +186,10 @@
               "version": "[8.0.3, )",
               "autoReferenced": true
             },
+            "Plugin.Fingerprint": {
+              "target": "Package",
+              "version": "[3.0.0-beta.1, )"
+            },
             "PropertyChanged.Fody": {
               "target": "Package",
               "version": "[4.1.0, )"
@@ -219,6 +231,10 @@
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
               "version": "[8.0.7, )"
+            },
+            "Plugin.Fingerprint": {
+              "target": "Package",
+              "version": "[3.0.0-beta.1, )"
             },
             "PropertyChanged.Fody": {
               "target": "Package",
