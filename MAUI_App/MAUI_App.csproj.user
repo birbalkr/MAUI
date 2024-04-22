@@ -6,6 +6,9 @@
     <ActiveDebugProfile>INFINIX MOBILITY LIMITED Infinix X655F (Android 10.0 - API 29)</ActiveDebugProfile>
     <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-android|AnyCPU'">
+    <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
+  </PropertyGroup>
   <ItemGroup>
     <MauiXaml Update="AbsoluteLayoutDemo.xaml">
       <SubType>Designer</SubType>

@@ -18,6 +18,11 @@ namespace MAUI_App.Selectors
                 Application.Current.Resources.TryGetValue("ClothRes", out var clothRes);
                 return clothRes as DataTemplate;
             }
+            else
+            {
+                Application.Current.Resources.TryGetValue("OfferCloth", out var offerCloth);
+                return offerCloth as DataTemplate;
+            }
             return new DataTemplate();
         }
     }
