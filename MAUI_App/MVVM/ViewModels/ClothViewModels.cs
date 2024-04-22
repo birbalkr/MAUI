@@ -26,23 +26,23 @@ namespace MAUI_App.MVVM.ViewModels
         public ICommand RefreshCommand => new Command(async ()=>{
             IsRefresh= true;
             await Task.Delay(2000);
-            RefreshItem();
+            RefreshItem(/*Products.Count*/);
             IsRefresh= false;
             });
 
         public ICommand ReachedCommand => new Command(() => {
-            RefreshItem(Products.Count);
+            RefreshItem(/*Products.Count*/);
         });
 
 
         public ClothViewModels()
         {
-            RefreshItem(Products.Count);   
+            RefreshItem();   
         }
 
-        private void RefreshItem( int lastItem=0)
+        private void RefreshItem( /*int lastItem=0*/)
         {
-            var ItemPerPage = 2;
+            //var ItemPerPage = 2;
             var Items = new ObservableCollection<Cloth>()
             {
                 new Cloth
@@ -146,8 +146,8 @@ namespace MAUI_App.MVVM.ViewModels
                     HasPrice = 420
                 },
             };
-            var PageItems= Items.Skip(lastItem).Take(ItemPerPage);
-            foreach (var item in PageItems)
+            //var PageItems= Items.Skip(lastItem).Take(ItemPerPage);
+            foreach (var item in Items)
             {
                 Products.Add(item);
             }

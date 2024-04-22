@@ -10,8 +10,10 @@ namespace MAUI_App
             InitializeComponent();
             var navbar= new NavigationPage(new MainPage());
             navbar.BarBackground= Colors.Red;
-
-            MainPage =new AppShell();
+            //MainPage = new FirstPage(CrossFingerprint.Current);
+            //MainPage = new AppShell();
+            //MainPage =new ClothPage();
+            MainPage = new ClothLenear();
         }
     }
 }
