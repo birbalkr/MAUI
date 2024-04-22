@@ -7,8 +7,15 @@
     <ContentPage.Resources>
         <DataTemplates:ClothDataTemplateSelector x:Key="clothResource"/>
     </ContentPage.Resources>
-    
-            <CollectionView ItemsSource="{Binding Products}" ItemTemplate="{StaticResource clothResource}">
-        
-            </CollectionView>
+    <RefreshView Command="{Binding RefreshCommand}" 
+                 IsRefreshing="{Binding IsRefresh}"
+                 >
+
+        <CollectionView ItemsSource="{Binding Products}" 
+                        ItemTemplate="{StaticResource clothResource}"
+                        RemainingItemsThreshold="1"
+                        RemainingItemsThresholdReachedCommand="{Binding ReachedCommand}">
+
+        </CollectionView>
+    </RefreshView>
 </ContentPage>

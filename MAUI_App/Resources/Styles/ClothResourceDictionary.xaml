@@ -1,8 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
     <?xml-comp compile="true"?>
 <ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:clothview="clr-namespace:MAUI_App.MVVM.ViewModels">
     <DataTemplate x:Key="ClothRes">
+        <SwipeView>
+        <SwipeView.LeftItems>
+            <SwipeItems>
+                <SwipeItem BackgroundColor="DarkRed" Command="{Binding Source={RelativeSource 
+                    AncestorType={x:Type clothview:ClothViewModels }},Path=DeleteCommand}"
+                       IconImageSource="Dotnet_bot" 
+                           CommandParameter="{Binding}"/>
+            </SwipeItems>
+        </SwipeView.LeftItems>
+       
+
+
         <Grid Margin="0,10,10,0"
           RowDefinitions="*,*"
           ColumnDefinitions=".1*,.5*,.5*">
@@ -18,8 +31,9 @@
                Grid.Column="2" Grid.Row="2" VerticalOptions="Center"/>
 
         </Grid>
+       </SwipeView>
     </DataTemplate>
-
+    
     <DataTemplate x:Key="OfferCloth">
         <Grid Margin="0,10,10,0"
        RowDefinitions="*,*"

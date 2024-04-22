@@ -1,25 +1,54 @@
 ﻿using MAUI_App.MVVM.Models;
+using PropertyChanged;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Input;
 
 namespace MAUI_App.MVVM.ViewModels
 {
+    [AddINotifyPropertyChangedInterface]
     public class ClothViewModels
     {
-       public ObservableCollection<Cloth>
-            Products { get; set; }
+        public ObservableCollection<Cloth>
+             Products { get; set; } = new ObservableCollection<Cloth>();
+        public bool IsRefresh { get; set; }
+
+        public ICommand DeleteCommand => 
+            new Command((i) =>
+        {
+            Products.Remove((Cloth)i);
+        });
+
+        public ICommand RefreshCommand => new Command(async ()=>{
+            IsRefresh= true;
+            await Task.Delay(2000);
+            RefreshItem();
+            IsRefresh= false;
+            });
+
+        public ICommand ReachedCommand => new Command(() => {
+            RefreshItem(Products.Count);
+        });
+
+
         public ClothViewModels()
         {
-            Products = new ObservableCollection<Cloth>()
+            RefreshItem(Products.Count);   
+        }
+
+        private void RefreshItem( int lastItem=0)
+        {
+            var ItemPerPage = 2;
+            var Items = new ObservableCollection<Cloth>()
             {
                 new Cloth
                 {
                     Title ="Red T-Shirt",
-                    Description="", 
+                    Description="",
                     Price = 1200,
                     Image = "a1.jpeg",
                     Stock = 4 ,
@@ -73,7 +102,7 @@ namespace MAUI_App.MVVM.ViewModels
                     Price = 600,
                     Image = "a6.jpeg",
                     Stock = 4 ,
-                    HasOffer = false,
+                    HasOffer = true,
                     HasPrice = 420
                 },
                 new Cloth
@@ -93,7 +122,7 @@ namespace MAUI_App.MVVM.ViewModels
                     Price = 600,
                     Image = "a8.jpeg",
                     Stock = 4 ,
-                    HasOffer = false,
+                    HasOffer = true,
                     HasPrice = 420
                 },
                 new Cloth
@@ -113,10 +142,15 @@ namespace MAUI_App.MVVM.ViewModels
                     Price = 600,
                     Image = "a10.jpeg",
                     Stock = 4 ,
-                    HasOffer = false,
+                    HasOffer = true,
                     HasPrice = 420
                 },
             };
+            var PageItems= Items.Skip(lastItem).Take(ItemPerPage);
+            foreach (var item in PageItems)
+            {
+                Products.Add(item);
+            }
         }
     }
 }
